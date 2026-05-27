@@ -29,6 +29,7 @@ import {
 const summary = getDashboardSummary();
 
 export default function DashboardPage() {
+  console.log("Dashboard summary:", summary);
   return (
     <div className="space-y-6">
       <section className="grid gap-4 xl:grid-cols-[1.4fr_0.9fr]">

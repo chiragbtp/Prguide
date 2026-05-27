@@ -30,6 +30,8 @@ export default async function ReviewDetailsPage({
   if (!review) {
     notFound();
   }
+  console.log("Dashboard summary:", summary);
+
 
   return (
     <div className="space-y-6">
